@@ -7,12 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		231C8C5C21BBD62700D8CCCB /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231C8C5B21BBD62700D8CCCB /* APIManager.swift */; };
+		231C8C5F21BC0E8D00D8CCCB /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231C8C5E21BC0E8D00D8CCCB /* Place.swift */; };
+		231C8C6121BC156700D8CCCB /* Places.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231C8C6021BC156700D8CCCB /* Places.swift */; };
+		231C8C6521BC16C400D8CCCB /* Coordinates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231C8C6421BC16C400D8CCCB /* Coordinates.swift */; };
+		231C8C6721BC175C00D8CCCB /* LifeSpan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231C8C6621BC175C00D8CCCB /* LifeSpan.swift */; };
+		231C8C6B21BDAAB600D8CCCB /* PlacesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231C8C6A21BDAAB600D8CCCB /* PlacesModel.swift */; };
+		231C8C7821C03CD600D8CCCB /* DateUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231C8C7721C03CD600D8CCCB /* DateUtils.swift */; };
 		239974C221B7013300DF0B56 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 239974C121B7013300DF0B56 /* AppDelegate.swift */; };
-		239974C421B7013300DF0B56 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 239974C321B7013300DF0B56 /* ViewController.swift */; };
+		239974C421B7013300DF0B56 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 239974C321B7013300DF0B56 /* MainViewController.swift */; };
 		239974C721B7013300DF0B56 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 239974C521B7013300DF0B56 /* Main.storyboard */; };
 		239974C921B7013500DF0B56 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 239974C821B7013500DF0B56 /* Assets.xcassets */; };
 		239974CC21B7013500DF0B56 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 239974CA21B7013500DF0B56 /* LaunchScreen.storyboard */; };
-		239974D721B7013600DF0B56 /* DanskebankTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 239974D621B7013600DF0B56 /* DanskebankTestTests.swift */; };
+		239974D721B7013600DF0B56 /* MusicbrainzPlacesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 239974D621B7013600DF0B56 /* MusicbrainzPlacesTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,15 +33,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		239974BE21B7013300DF0B56 /* DanskebankTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DanskebankTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		231C8C5B21BBD62700D8CCCB /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		231C8C5E21BC0E8D00D8CCCB /* Place.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Place.swift; sourceTree = "<group>"; };
+		231C8C6021BC156700D8CCCB /* Places.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Places.swift; sourceTree = "<group>"; };
+		231C8C6421BC16C400D8CCCB /* Coordinates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinates.swift; sourceTree = "<group>"; };
+		231C8C6621BC175C00D8CCCB /* LifeSpan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeSpan.swift; sourceTree = "<group>"; };
+		231C8C6A21BDAAB600D8CCCB /* PlacesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesModel.swift; sourceTree = "<group>"; };
+		231C8C7721C03CD600D8CCCB /* DateUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateUtils.swift; sourceTree = "<group>"; };
+		239974BE21B7013300DF0B56 /* MusicbrainzPlaces.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicbrainzPlaces.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		239974C121B7013300DF0B56 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		239974C321B7013300DF0B56 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		239974C321B7013300DF0B56 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		239974C621B7013300DF0B56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		239974C821B7013500DF0B56 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		239974CB21B7013500DF0B56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		239974CD21B7013500DF0B56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		239974D221B7013500DF0B56 /* DanskebankTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DanskebankTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		239974D621B7013600DF0B56 /* DanskebankTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DanskebankTestTests.swift; sourceTree = "<group>"; };
+		239974D221B7013500DF0B56 /* MusicbrainzPlacesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MusicbrainzPlacesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		239974D621B7013600DF0B56 /* MusicbrainzPlacesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicbrainzPlacesTests.swift; sourceTree = "<group>"; };
 		239974D821B7013600DF0B56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -56,11 +70,64 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		231C8C5721B82B6700D8CCCB /* ApiClient */ = {
+			isa = PBXGroup;
+			children = (
+				231C8C5B21BBD62700D8CCCB /* APIManager.swift */,
+			);
+			path = ApiClient;
+			sourceTree = "<group>";
+		};
+		231C8C5D21BC0E7D00D8CCCB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				231C8C5E21BC0E8D00D8CCCB /* Place.swift */,
+				231C8C6021BC156700D8CCCB /* Places.swift */,
+				231C8C6421BC16C400D8CCCB /* Coordinates.swift */,
+				231C8C6621BC175C00D8CCCB /* LifeSpan.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		231C8C6821BDAA6600D8CCCB /* Places */ = {
+			isa = PBXGroup;
+			children = (
+				231C8C7B21C17E2200D8CCCB /* ViewControllers */,
+				231C8C6921BDAA9100D8CCCB /* Models */,
+			);
+			name = Places;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		231C8C6921BDAA9100D8CCCB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				231C8C6A21BDAAB600D8CCCB /* PlacesModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		231C8C7B21C17E2200D8CCCB /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				239974C321B7013300DF0B56 /* MainViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		231C8C7C21C17E4B00D8CCCB /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				231C8C7721C03CD600D8CCCB /* DateUtils.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
 		239974B521B7013300DF0B56 = {
 			isa = PBXGroup;
 			children = (
-				239974C021B7013300DF0B56 /* DanskebankTest */,
-				239974D521B7013600DF0B56 /* DanskebankTestTests */,
+				239974C021B7013300DF0B56 /* MusicbrainzPlaces */,
+				239974D521B7013600DF0B56 /* MusicbrainzPlacesTests */,
 				239974BF21B7013300DF0B56 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -68,40 +135,43 @@
 		239974BF21B7013300DF0B56 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				239974BE21B7013300DF0B56 /* DanskebankTest.app */,
-				239974D221B7013500DF0B56 /* DanskebankTestTests.xctest */,
+				239974BE21B7013300DF0B56 /* MusicbrainzPlaces.app */,
+				239974D221B7013500DF0B56 /* MusicbrainzPlacesTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		239974C021B7013300DF0B56 /* DanskebankTest */ = {
+		239974C021B7013300DF0B56 /* MusicbrainzPlaces */ = {
 			isa = PBXGroup;
 			children = (
+				231C8C7C21C17E4B00D8CCCB /* Common */,
+				231C8C6821BDAA6600D8CCCB /* Places */,
+				231C8C5D21BC0E7D00D8CCCB /* Models */,
+				231C8C5721B82B6700D8CCCB /* ApiClient */,
 				239974C121B7013300DF0B56 /* AppDelegate.swift */,
-				239974C321B7013300DF0B56 /* ViewController.swift */,
 				239974C521B7013300DF0B56 /* Main.storyboard */,
 				239974C821B7013500DF0B56 /* Assets.xcassets */,
 				239974CA21B7013500DF0B56 /* LaunchScreen.storyboard */,
 				239974CD21B7013500DF0B56 /* Info.plist */,
 			);
-			path = DanskebankTest;
+			path = MusicbrainzPlaces;
 			sourceTree = "<group>";
 		};
-		239974D521B7013600DF0B56 /* DanskebankTestTests */ = {
+		239974D521B7013600DF0B56 /* MusicbrainzPlacesTests */ = {
 			isa = PBXGroup;
 			children = (
-				239974D621B7013600DF0B56 /* DanskebankTestTests.swift */,
+				239974D621B7013600DF0B56 /* MusicbrainzPlacesTests.swift */,
 				239974D821B7013600DF0B56 /* Info.plist */,
 			);
-			path = DanskebankTestTests;
+			path = MusicbrainzPlacesTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		239974BD21B7013300DF0B56 /* DanskebankTest */ = {
+		239974BD21B7013300DF0B56 /* MusicbrainzPlaces */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 239974DB21B7013600DF0B56 /* Build configuration list for PBXNativeTarget "DanskebankTest" */;
+			buildConfigurationList = 239974DB21B7013600DF0B56 /* Build configuration list for PBXNativeTarget "MusicbrainzPlaces" */;
 			buildPhases = (
 				239974BA21B7013300DF0B56 /* Sources */,
 				239974BB21B7013300DF0B56 /* Frameworks */,
@@ -111,14 +181,14 @@
 			);
 			dependencies = (
 			);
-			name = DanskebankTest;
+			name = MusicbrainzPlaces;
 			productName = DanskebankTest;
-			productReference = 239974BE21B7013300DF0B56 /* DanskebankTest.app */;
+			productReference = 239974BE21B7013300DF0B56 /* MusicbrainzPlaces.app */;
 			productType = "com.apple.product-type.application";
 		};
-		239974D121B7013500DF0B56 /* DanskebankTestTests */ = {
+		239974D121B7013500DF0B56 /* MusicbrainzPlacesTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 239974DE21B7013600DF0B56 /* Build configuration list for PBXNativeTarget "DanskebankTestTests" */;
+			buildConfigurationList = 239974DE21B7013600DF0B56 /* Build configuration list for PBXNativeTarget "MusicbrainzPlacesTests" */;
 			buildPhases = (
 				239974CE21B7013500DF0B56 /* Sources */,
 				239974CF21B7013500DF0B56 /* Frameworks */,
@@ -129,9 +199,9 @@
 			dependencies = (
 				239974D421B7013500DF0B56 /* PBXTargetDependency */,
 			);
-			name = DanskebankTestTests;
+			name = MusicbrainzPlacesTests;
 			productName = DanskebankTestTests;
-			productReference = 239974D221B7013500DF0B56 /* DanskebankTestTests.xctest */;
+			productReference = 239974D221B7013500DF0B56 /* MusicbrainzPlacesTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -153,7 +223,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 239974B921B7013300DF0B56 /* Build configuration list for PBXProject "DanskebankTest" */;
+			buildConfigurationList = 239974B921B7013300DF0B56 /* Build configuration list for PBXProject "MusicbrainzPlaces" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -166,8 +236,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				239974BD21B7013300DF0B56 /* DanskebankTest */,
-				239974D121B7013500DF0B56 /* DanskebankTestTests */,
+				239974BD21B7013300DF0B56 /* MusicbrainzPlaces */,
+				239974D121B7013500DF0B56 /* MusicbrainzPlacesTests */,
 			);
 		};
 /* End PBXProject section */
@@ -197,8 +267,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				239974C421B7013300DF0B56 /* ViewController.swift in Sources */,
+				231C8C5C21BBD62700D8CCCB /* APIManager.swift in Sources */,
+				239974C421B7013300DF0B56 /* MainViewController.swift in Sources */,
 				239974C221B7013300DF0B56 /* AppDelegate.swift in Sources */,
+				231C8C7821C03CD600D8CCCB /* DateUtils.swift in Sources */,
+				231C8C5F21BC0E8D00D8CCCB /* Place.swift in Sources */,
+				231C8C6721BC175C00D8CCCB /* LifeSpan.swift in Sources */,
+				231C8C6121BC156700D8CCCB /* Places.swift in Sources */,
+				231C8C6521BC16C400D8CCCB /* Coordinates.swift in Sources */,
+				231C8C6B21BDAAB600D8CCCB /* PlacesModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -206,7 +283,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				239974D721B7013600DF0B56 /* DanskebankTestTests.swift in Sources */,
+				239974D721B7013600DF0B56 /* MusicbrainzPlacesTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -215,7 +292,7 @@
 /* Begin PBXTargetDependency section */
 		239974D421B7013500DF0B56 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 239974BD21B7013300DF0B56 /* DanskebankTest */;
+			target = 239974BD21B7013300DF0B56 /* MusicbrainzPlaces */;
 			targetProxy = 239974D321B7013500DF0B56 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -362,12 +439,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LGT2UGV788;
-				INFOPLIST_FILE = DanskebankTest/Info.plist;
+				INFOPLIST_FILE = MusicbrainzPlaces/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = gedas.DanskebankTest;
+				PRODUCT_BUNDLE_IDENTIFIER = gedas.MusicbrainzPlaces;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -380,12 +458,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LGT2UGV788;
-				INFOPLIST_FILE = DanskebankTest/Info.plist;
+				INFOPLIST_FILE = MusicbrainzPlaces/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = gedas.DanskebankTest;
+				PRODUCT_BUNDLE_IDENTIFIER = gedas.MusicbrainzPlaces;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -399,17 +478,17 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LGT2UGV788;
-				INFOPLIST_FILE = DanskebankTestTests/Info.plist;
+				INFOPLIST_FILE = MusicbrainzPlacesTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = gedas.DanskebankTestTests;
+				PRODUCT_BUNDLE_IDENTIFIER = gedas.MusicbrainzPlacesTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DanskebankTest.app/DanskebankTest";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MusicbrainzPlaces.app/MusicbrainzPlaces";
 			};
 			name = Debug;
 		};
@@ -420,24 +499,24 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LGT2UGV788;
-				INFOPLIST_FILE = DanskebankTestTests/Info.plist;
+				INFOPLIST_FILE = MusicbrainzPlacesTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = gedas.DanskebankTestTests;
+				PRODUCT_BUNDLE_IDENTIFIER = gedas.MusicbrainzPlacesTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DanskebankTest.app/DanskebankTest";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MusicbrainzPlaces.app/MusicbrainzPlaces";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		239974B921B7013300DF0B56 /* Build configuration list for PBXProject "DanskebankTest" */ = {
+		239974B921B7013300DF0B56 /* Build configuration list for PBXProject "MusicbrainzPlaces" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				239974D921B7013600DF0B56 /* Debug */,
@@ -446,7 +525,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		239974DB21B7013600DF0B56 /* Build configuration list for PBXNativeTarget "DanskebankTest" */ = {
+		239974DB21B7013600DF0B56 /* Build configuration list for PBXNativeTarget "MusicbrainzPlaces" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				239974DC21B7013600DF0B56 /* Debug */,
@@ -455,7 +534,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		239974DE21B7013600DF0B56 /* Build configuration list for PBXNativeTarget "DanskebankTestTests" */ = {
+		239974DE21B7013600DF0B56 /* Build configuration list for PBXNativeTarget "MusicbrainzPlacesTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				239974DF21B7013600DF0B56 /* Debug */,

@@ -1,15 +1,15 @@
 //
-//  DanskebankTestTests.swift
-//  DanskebankTestTests
+//  MusicbrainzPlacesTests.swift
+//  MusicbrainzPlacesTests
 //
 //  Created by Gediminas Urbonas on 04/12/2018.
 //  Copyright © 2018 Gediminas Urbonas. All rights reserved.
 //
 
 import XCTest
-@testable import DanskebankTest
+@testable import MusicbrainzPlaces
 
-class DanskebankTestTests: XCTestCase {
+class MusicbrainzPlacesTests: XCTestCase {
 
     override func setUp() {
         // Put setup code here. This method is called before the invocation of each test method in the class.

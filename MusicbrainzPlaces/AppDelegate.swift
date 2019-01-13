@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  DanskebankTest
+//  MusicbrainzPlaces
 //
 //  Created by Gediminas Urbonas on 04/12/2018.
 //  Copyright © 2018 Gediminas Urbonas. All rights reserved.
